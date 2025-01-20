@@ -24,8 +24,11 @@
 
 /* Header section style */
 /* Navbar related style */
+
 .navbar{
-    padding: 20px 60px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
 
@@ -81,7 +84,8 @@
 /* Banner related style */
 
 .banner{
-    padding: 20px 60px;
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,9 +138,10 @@
 /* Media query */
 @media screen and (max-width:576px){
     
-    .navbar{
+    .header-wrap{
         border-bottom: 1px solid orange;
     }
+   
     .nav-links{
         display: none;
     }
