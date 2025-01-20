@@ -76,7 +76,11 @@
     letter-spacing: 0%;
     border: none;
 }
-
+.navbar-btn:hover{
+    background-color: white;
+    color:orange;
+    border: 1px solid orange;
+}
 .menu-icon{
     display: none;
 }
@@ -129,6 +133,11 @@
     letter-spacing: 0%;
     margin-top: 24px;
    
+}
+.banner-content-btn:hover{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .banner-img img{
