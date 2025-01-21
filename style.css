@@ -467,6 +467,8 @@ footer{
     gap:10px;
 }
 /* Media query */
+/* Responsive for small devices */
+
 @media screen and (max-width:576px){
     
     .header-wrap{
@@ -533,4 +535,115 @@ footer{
         
     }
     
-    
+    /* Responsive for medium devices */
+    @media screen and (min-width:576px) and (max-width:992px){
+         
+        .header-wrap{
+            border-bottom: 1px solid orange;
+        }
+       
+        .nav-links{
+            display: none;
+        }
+        .navbar-btn{
+            display: none;
+        }
+        .logo-title{
+           display: none;
+           
+        }
+        .menu-icon{
+          
+            display: block;
+            display: flex;
+            align-items: center;
+        }
+        .menu-icon i{
+            font-size: 2rem;
+        }
+        .banner{
+            flex-direction: column-reverse;
+        }
+        
+        .banner-content{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .curriculum-content{
+       
+            flex-direction: column;
+         }
+         .curriculum-icon{
+             display: none;        
+         }
+         #stories-card-1{
+             display: none;
+         }
+         .stories-wrapper{
+             grid-template-columns: repeat(2,50%);
+             row-gap: 10px;
+             column-gap: 10px;
+             }
+             .stories-card-img{
+                 width: 100%;
+                 border-radius: 16px 16px 0px 0px;
+                
+             }
+             .font-size{
+                 font-size: 0.8rem;
+                
+                 
+             }
+             .card-content{
+                 padding: 0 15px 0 15px;
+             }
+             .footer-content{
+                 flex-direction: column;
+             }
+    }  
+/* Responsive for larger devices */
+    @media screen and (min-width:992px) and (max-width:1200px){
+        
+       
+        .banner-content{
+            max-width: 100%;
+            
+        }
+        
+        .banner-content-title{
+            
+            font-size: 2rem;
+            line-height: 40px;
+            
+            
+        }
+        
+        .banner-content-description{
+            
+            font-size: 1rem;
+            line-height: 24px;
+            margin-top: 15px;
+            
+        }
+        
+        .banner-content-btn{
+            padding: 5px 15px;
+            border-radius: 12px;
+            background: black;
+            color: white;
+            font-family: Quicksand;
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 30px;
+            letter-spacing: 0%;
+            margin-top: 15px;
+           
+        }
+        .stories-wrapper{
+           
+            grid-template-columns: repeat(1,2fr) 220px 220px;
+            row-gap: 20px;
+            column-gap: 10px;
+        }
+
+    }
