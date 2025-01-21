@@ -388,6 +388,7 @@ footer{
 .footer-content{
     display: flex;
     justify-content: space-between;
+    gap:40px;
 }
 .footer-logo{
     display: flex;
@@ -430,7 +431,7 @@ footer{
     margin-top: 32px;
 }
 .footer-list-item{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .footer-list-link{
     color: rgb(255, 255, 255);
@@ -516,6 +517,9 @@ footer{
         }
         .card-content{
             padding: 0 18px 0 15px;
+        }
+        .footer-content{
+            flex-direction: column;
         }
     }
     
