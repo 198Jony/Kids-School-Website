@@ -521,6 +521,11 @@ footer{
         .footer-content{
             flex-direction: column;
         }
+        .footer-logo-description{
+            
+            width: 100%;
+            
+        }
     }
     
     
