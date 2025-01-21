@@ -44,6 +44,14 @@
 /* Header section style */
 /* Navbar related style */
 
+.marquee-txt{
+    font-size: 2rem;
+    color: rgb(233, 160, 24);
+    font-family: Quicksand;
+    font-weight: bold;
+    padding: 10px 0;
+    
+}
 .navbar{
     max-width: 80%;
     margin: 0 auto;
