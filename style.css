@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 #title-1{
     margin-top: 28px;
@@ -34,6 +36,9 @@
     margin-top: 5px;
     margin-bottom: 25px;
     
+}
+.text-align{
+    text-align: left;
 }
 
 /* Header section style */
@@ -268,6 +273,7 @@
 .stories{
     padding: 60px 0px 60px 0px;
     background: url('assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    text-align: center;
 }
 .stories-title{
     color: rgb(0, 0, 0);
@@ -300,7 +306,7 @@
    
 }
 .card-content{
-    padding: 0 40px;
+    padding: 0 40px 0 20px;
 }
 .position{
     position: relative;
@@ -355,6 +361,101 @@
     margin-bottom: 0;
     
 }
+.stories-btn{
+    margin-top: 80px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 5px 30px;
+   
+}
+
+/* Footer section style */
+footer{
+    background: rgb(1, 172, 253);
+    padding: 100px 0;
+}
+.footer-section{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-logo-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 206.11px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer-logo-description{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    width: 399.02px;
+    margin-top: 35px;
+}
+
+.footer-middle-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+   
+}
+.footer-nav{
+    margin-top: 32px;
+}
+.footer-list-item{
+    padding-bottom: 20px;
+}
+.footer-list-link{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    
+}
+.footer-right-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+    
+}
+.footer-icon{
+    margin-top: 32px;
+    display: flex;
+    gap:10px;
+}
 /* Media query */
 @media screen and (max-width:576px){
     
@@ -400,11 +501,22 @@
     }
     .stories-wrapper{
         grid-template-columns: repeat(2,50%);
-    }
-    .stories-card-img{
-        width: 100%;
-        border-radius: 16px 16px 0px 0px;
-       
+        row-gap: 10px;
+        column-gap: 10px;
+        }
+        .stories-card-img{
+            width: 100%;
+            border-radius: 16px 16px 0px 0px;
+           
+        }
+        .font-size{
+            font-size: 0.8rem;
+           
+            
+        }
+        .card-content{
+            padding: 0 18px 0 15px;
+        }
     }
     
-}
+    
