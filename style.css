@@ -290,7 +290,7 @@
     display: grid;
     grid-template-columns: repeat(1,2fr) 300px 300px;
     row-gap: 20px;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 #stories-card-1{
@@ -503,8 +503,8 @@ footer{
     }
     .stories-wrapper{
         grid-template-columns: repeat(2,50%);
-        row-gap: 10px;
-        column-gap: 10px;
+        row-gap: 5px;
+        column-gap: 5px;
         }
         .stories-card-img{
             width: 100%;
